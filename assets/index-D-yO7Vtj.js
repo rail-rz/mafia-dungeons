@@ -4,7 +4,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-      `},Q1)),D1=()=>p("img",{src:"/src/imgs/start.png",css:`
+      `},Q1)),D1=()=>p("img",{src:"/mafia-dungeons/assets/start.png",css:`
         width: 100%;
         image-rendering: pixelated;
         position: absolute;
@@ -28,4 +28,4 @@
           gap: 5px;
           place-items: center;
 
-        `},p("div",{css:"width: 128px;"},p("a",{target:"_blank",href:"https://lospec.com/rail-rz"},p("img",{src:"/src/imgs/misfire.gif",css:"width: 128px; image-rendering: pixelated;"})),p("div",null,p("a",{target:"_blank",href:"https://lospec.com/rail-rz"},"project's animation"))),p("div",{css:"width: 128px;"},p("a",{href:"mailto: zamaletdinov.rz@gmail.com"},p("img",{src:"/src/imgs/mail.gif",css:"width: 128px; image-rendering: pixelated;"})),p("div",null,p("a",{target:"_blank",href:"mailto: zamaletdinov.rz@gmail.com"},"Write Me"))),p("div",{css:"width: 128px;"},p("a",{target:"_blank",href:"https://paypal.me/railrz"},p("img",{src:"/src/imgs/tipjar.gif",css:"width: 128px; image-rendering: pixelated;"})),p("div",null,p("a",{target:"_blank",href:"https://paypal.me/railrz"},"Paypal"))))),se=e=>{switch(e){case R.finish:return p("div",{class:"tile finish"});case R.land:return p("div",{class:"tile land"});case R.spike:return p("div",{class:"tile land spike"});case R.torch:return p("div",{class:"tile land torch"});case R.wall:return p("div",{class:"tile wall"});default:return p("div",{class:"tile unknown"})}};window.addEventListener("unhandledrejection",e=>{F1(e.reason)&&e.preventDefault()});B1(document.getElementById("app"),Z1());
+        `},p("div",{css:"width: 128px;"},p("a",{target:"_blank",href:"https://lospec.com/rail-rz"},p("img",{src:"/mafia-dungeons/assets/misfire.gif",css:"width: 128px; image-rendering: pixelated;"})),p("div",null,p("a",{target:"_blank",href:"https://lospec.com/rail-rz"},"project's animation"))),p("div",{css:"width: 128px;"},p("a",{href:"mailto: zamaletdinov.rz@gmail.com"},p("img",{src:"/mafia-dungeons/assets/mail.gif",css:"width: 128px; image-rendering: pixelated;"})),p("div",null,p("a",{target:"_blank",href:"mailto: zamaletdinov.rz@gmail.com"},"Write Me"))),p("div",{css:"width: 128px;"},p("a",{target:"_blank",href:"https://paypal.me/railrz"},p("img",{src:"/mafia-dungeons/assets/tipjar.gif",css:"width: 128px; image-rendering: pixelated;"})),p("div",null,p("a",{target:"_blank",href:"https://paypal.me/railrz"},"Paypal"))))),se=e=>{switch(e){case R.finish:return p("div",{class:"tile finish"});case R.land:return p("div",{class:"tile land"});case R.spike:return p("div",{class:"tile land spike"});case R.torch:return p("div",{class:"tile land torch"});case R.wall:return p("div",{class:"tile wall"});default:return p("div",{class:"tile unknown"})}};window.addEventListener("unhandledrejection",e=>{F1(e.reason)&&e.preventDefault()});B1(document.getElementById("app"),Z1());
